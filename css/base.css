@@ -1,0 +1,38 @@
+/* 公共样式 */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: 0 none;
+    vertical-align: top;
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline:0 none;
+}
+body{
+    font: 16px/1em "Microsoft yahei";
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+

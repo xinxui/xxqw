@@ -1,0 +1,166 @@
+.bg_head{
+    width: 100%;
+    height: 382px;
+    background: url(../images/banner/aw-banner-live.jpg) no-repeat center center;
+}
+.head_nav{
+    width: 100%;
+    height: 66px;
+    border-bottom: 1px solid #E7E7E7;
+    font-size: 18px;
+    color: #727B8B;
+    vertical-align: bottom;
+}
+.head_nav .nav{
+    width: 292px;
+    height: 64px;
+    margin-left: 42%;
+}
+.head_nav .nav li{
+    margin-top: 22px;
+}
+.game_logo_bg{
+    width: 25px;
+    height: 23px;
+    background: url(../images/icon/title.png) no-repeat -183px -4px;
+    margin-right: 8px;
+}
+.video_logo_bg{
+    width: 19px;
+    height: 22px;
+    background: url(../images/icon/title.png) no-repeat -216px -4px;
+    margin-right: 8px;
+}
+.shu{
+    margin: 0 36px;
+}
+.xiahuaxian_box{
+    width: 105px;
+    height: 64px;
+    cursor: pointer;
+}
+.xiahuaxian_box:hover{
+    color: #409EFF;
+    border-bottom: 1px solid #409EFF;
+}
+.xiahuaxian_box:hover .game_logo_bg{
+    background-position-y: -34px;
+}
+.xiahuaxian_box:hover .video_logo_bg{
+    background-position-y: -34px;
+}
+
+
+
+.section>.container{
+}
+h1{
+    font-size: 30px;
+    padding-left: 10px;
+    border-left: 3px solid #409EFF;
+    margin: 0 0 49px 0;
+}
+.container>.jianjie{
+    margin-top: 70px;
+    position: relative;
+}
+.jianjie_left{
+    font-size: 15px;
+}
+.jianjie_left>p{
+    line-height: 32px;
+    letter-spacing: 0.2px;
+}
+.jianjie_left .more{
+    width: 170px;
+    height: 48px;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    line-height: 48px;
+    color: #66668C;
+    cursor: pointer;
+    margin-top: 60px;
+}
+.jianjie_left .more img{
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.jianjie_right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.xuxian{
+    width: 100%;
+    height: 0;
+    border-top: 1px dashed #CCCCCC;
+    margin-top: 63px;
+}
+
+
+.fenlei li{
+    width: 530px;
+    height: 232px;
+    border: 1px solid #CCCCCC;
+    padding-left: 38px;
+    margin-top: 100px;
+}
+.fenlei .left_aa{
+    margin-right: 80px;
+}
+.fenlei .bottom_aa{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.fenlei li .left_pic{
+    width: 140px;
+    height: 140px;
+    background: #EEF3FA;
+    padding: 34px 0 0 38px;
+    border-radius: 50%;
+    margin: 48px 42px 0 0;
+}
+.fenlei li .left_pic .xiu{
+    width: 62px;
+    height: 64px;
+    background: url(../images/icon/index-video2.png) no-repeat -19px -18px;
+}
+.fenlei li .right_word{
+    margin-top: 38px;
+    color: #999999;
+}
+.fenlei li .right_word h2{
+    font-size: 23px;
+    color: #6C778A;
+}
+.fenlei li .right_word img{
+    margin-right: 14px;
+}
+
+.fenlei li .left_pic_two{
+    padding: 28px 0 0 32px;
+}
+.fenlei li .left_pic .sencond{
+    width: 78px;
+    height: 70px;
+    background: url(../images/icon/index-video2.png) no-repeat -11px -115px;
+}
+
+.fenlei li .left_pic_three{
+    padding: 36px 0 0 34px;
+}
+.fenlei li .left_pic .third{
+    width: 76px;
+    height: 68px;
+    background: url(../images/icon/index-video2.png) no-repeat -112px -16px;
+}
+
+.fenlei li .left_pic_four{
+    padding: 36px 0 0 28px;
+}
+.fenlei li .left_pic .fourth{
+    width: 86px;
+    height: 56px;
+    background: url(../images/icon/index-video2.png) no-repeat -107px -122px;
+}

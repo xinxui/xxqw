@@ -1,0 +1,95 @@
+ul,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background: #2f3238;
+}
+footer>.container{
+    overflow: hidden;
+}
+footer .top{
+    width: 100%;
+    padding: 60px 0 30px;
+}
+footer  ul ol li{
+    color: white;
+    margin-bottom: 8px
+}
+footer ul ol li>a{
+    color: #727b8b;
+}
+footer ul ol li>a:hover{
+    color: #b4b9c5;
+    text-decoration: none;
+}
+footer ul>li{
+    margin-right: 120px
+}
+footer ul>.heihei{
+    margin-right: 105px;
+}
+footer ul>.special{
+    height: 100%;
+    margin-right: 0;
+    padding-left: 90px;
+    border-left: 1px solid rgba(255,255,255,.1);
+}
+footer ol>.tit{
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    position: relative;
+}
+footer ol>.tit>span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1em;
+    height: 1px;
+    background-color: #fff;
+}
+footer ol img{
+    margin-bottom: 5px;
+}
+footer ol .txt{
+    color: #727b8b
+}
+footer ol>li>i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+    vertical-align: middle;
+    background: url(../images/icon/index-address.png) no-repeat
+}
+footer ol>li>.phone{
+    background-position: 0 0;
+}
+footer ol>li>.qq{
+    background-position: -30px 0;
+}
+footer ol>li>.email{
+    background-position: -60px 0;
+}
+footer ul>li:nth-last-child(1){
+    margin: 50px 0 0 30px;
+}
+footer .bottom{
+    padding: 25px 0;
+    text-align: center;
+    font: 12px/2 'Microsoft yahei';
+    border-top: 1px solid rgba(255,255,255,.1);
+}
+footer .bottom>p{
+    color: #727b8b
+}
+footer .bottom img{
+    width: 25px;
+    height: 25px;
+}
+footer .bottom span{
+    margin-left: 8px;
+    margin-right: 8px;
+}

@@ -1,0 +1,132 @@
+.bg{
+    width:100%;
+    height:382px;
+    background: url('../images/banner/aw-banner-about.jpg') no-repeat center;
+}
+nav ul{
+    text-align: center;
+    border-bottom: 1px solid #e7e7e7;
+    padding-left: 120px;
+}
+nav ul>li{
+    float: left;
+    list-style: none;
+    font-size: 20px; 
+    line-height: 50px;
+    text-align: center;
+    padding-right: 38px;
+    margin-left: 38px;
+}
+nav li>a{
+    display: inline-block;
+    padding: 18px 0;
+    font-size: 18px;
+    line-height: 25px;
+    color: #727b8b;
+}
+nav li:hover a{
+    border-bottom: 2px solid #409eff;
+    text-decoration: none;
+    color: #409eff;
+    margin-bottom: -2px;
+}
+nav ul>li:nth-child(1) a{
+    border-bottom: 2px solid #409eff;
+    margin-bottom: -2px;
+    text-decoration: none;
+    color: #409eff;
+}
+nav ul>li:nth-child(1) span{
+    background-position-y: -30px; 
+}
+nav li:hover span{
+    background-position-y: -30px; 
+}
+nav li:hover .two{
+    background-position-y: -30px; 
+}
+nav li:hover .three{
+    background-position-y: -30px; 
+}
+nav li:hover .four{
+    background-position-y: -30px; 
+}
+nav li:hover .five{
+    background-position-y: -30px; 
+}
+nav li:hover .six{
+    background-position-y: -30px; 
+}
+nav ul span{
+    width:30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+    background-image:url('../images/icon/title.png');
+}
+
+.one{   
+    background-position: 0px 0px;
+}
+
+.two{   
+    background-position: -30px 0px;
+}
+.three{   
+    background-position: -60px 0px;
+}
+.four{   
+    background-position: -90px 0px;
+}
+.five{   
+    background-position: -120px 0px;
+}
+.six{   
+    background-position: -150px 0px;
+}
+.content{
+    padding-top: 50px;
+    padding-bottom: 120px;
+    background: url(../images/bg/about.png) no-repeat 50% 100%;
+}
+.content>.tit{
+    text-align: center;
+}
+.content>.tit>h2{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #6c778a;
+}
+.content>.tit>h2>.line{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50%;
+    height: 1px;
+    margin-left: -25%;
+    background-color: #e5e5e5;
+}
+.content>.text{
+    margin-top: 70px;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.content>.text>img{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.content>.text>p{
+    margin-top: 2em;
+    text-indent: 2em;
+    color: #6c778a;
+}
+.content>.text>.text-bg{
+    width: 368px;
+    height: 58px;
+    margin: 40px 0 70px 100px;
+    background: url(../images/bg/change.png) no-repeat;
+}

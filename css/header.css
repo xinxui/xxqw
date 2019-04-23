@@ -1,0 +1,59 @@
+header>.container{
+    position: relative;
+}
+header .logo>img{
+    margin-top: 17px;
+}
+header .right li{
+    float: left;
+}
+header .right ul{
+    margin-bottom: 0;
+}
+header .right li>a{
+    margin: 0 16px;
+    line-height: 70px;
+    font-size: 16px;
+    color: #3f3f3f;
+    position: relative;
+}
+header .right li>a:hover{
+    color: #409eff;
+    text-decoration: none;
+}
+header .right li span{
+    color: #e1e1e1;
+}
+header .special{
+    position: absolute;
+    top: 23px;
+    right: -60px;
+    color: #727b8b;
+}
+header .special:hover{
+    text-decoration: none;
+}
+header .right .second-list{
+    display: none;
+    position: absolute;
+    top: 70px;
+    z-index: 10;
+    background-color: rgba(255,255,255,.65);
+    margin-left: -100px;
+}
+header .right .second{
+    margin-left: -50px;
+}
+header .right .second-list a{
+    display: inline-block;
+    line-height: 48px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header .right .second-list a:hover{
+    border-bottom: 2px solid #1d78d6;
+    margin-bottom: -2px;
+}
+header .right>ul{
+    position: relative;
+}

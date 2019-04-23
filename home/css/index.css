@@ -1,0 +1,101 @@
+﻿@charset "utf-8";
+
+/*IE低版本提示*/
+
+body.brow-tips {
+	min-width: 0;
+}
+
+.tui-error-ie {
+	font-size: 0;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index:1000;
+	white-space: nowrap;
+	word-wrap: normal;
+	text-align: center;
+	width: 500px;
+	margin-top: -150px;
+	margin-left: -250px;
+}
+
+.tui-error-ie-cont {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.tui-error-ie-figure {
+	display: block;
+	width: 156px;
+	height: 156px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.tui-error-ie h6 {
+	font-size: 18px;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+.tui-error-ie p {
+	color: #858585;
+	font-size: 14px;
+	margin-top: 4px;
+}
+
+.brow-wp {
+	margin-top: 30px;
+	color: #000000
+}
+
+.brow-wp a {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 80px;
+	margin: 0 10px;
+	text-align: center;
+}
+
+.brow-wp i,
+.brow-wp span {
+	display: block;
+}
+
+.brow-wp span {
+	font-size: 12px;
+	text-align: center;
+	color: #4cbeff
+}
+
+.brow-wp a:hover span {
+	color: #61e1ff;
+}
+
+.brow-wp i {
+	width: 48px;
+	height: 48px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.brow-ie {
+	background-image: url('../images/browser-ie.png')
+}
+
+.brow-chrome {
+	background-image: url('../images/browser-chrome.png')
+}
+
+.brow-qq {
+	background-image: url('../images/browser-qq.png')
+}

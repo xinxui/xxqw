@@ -1,0 +1,199 @@
+.bg{
+    width:100%;
+    height:382px;
+    background: url('../images/banner/aw-banner-about.jpg') no-repeat center;
+}
+nav ul{
+    text-align: center;
+    border-bottom: 1px solid #e7e7e7;
+    padding-left: 120px;
+}
+nav ul>li{
+    float: left;
+    list-style: none;
+    font-size: 20px; 
+    line-height: 50px;
+    text-align: center;
+    padding-right: 38px;
+    margin-left: 38px;
+}
+nav li>a{
+    display: inline-block;
+    padding: 18px 0;
+    font-size: 18px;
+    line-height: 25px;
+    color: #727b8b;
+}
+nav li:hover a{
+    border-bottom: 2px solid #409eff;
+    text-decoration: none;
+    color: #409eff;
+    margin-bottom: -2px;
+}
+nav ul>li:nth-child(2) a{
+    border-bottom: 2px solid #409eff;
+    margin-bottom: -2px;
+    text-decoration: none;
+    color: #409eff;
+}
+nav ul>li:nth-child(2) span{
+    background-position-y: -30px; 
+}
+nav li:hover span{
+    background-position-y: -30px; 
+}
+nav li:hover .two{
+    background-position-y: -30px; 
+}
+nav li:hover .three{
+    background-position-y: -30px; 
+}
+nav li:hover .four{
+    background-position-y: -30px; 
+}
+nav li:hover .five{
+    background-position-y: -30px; 
+}
+nav li:hover .six{
+    background-position-y: -30px; 
+}
+nav ul span{
+    width:30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+    background-image:url('../images/icon/title.png');
+}
+
+.one{   
+    background-position: 0px 0px;
+}
+
+.two{   
+    background-position: -30px 0px;
+}
+.three{   
+    background-position: -60px 0px;
+}
+.four{   
+    background-position: -90px 0px;
+}
+.five{   
+    background-position: -120px 0px;
+}
+.six{   
+    background-position: -150px 0px;
+}
+.main .tit{
+    text-align: center;
+}
+.main .tit>h2{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #6c778a;
+}
+.main .tit>h2>.line{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50%;
+    height: 1px;
+    margin-left: -25%;
+    background-color: #e5e5e5;
+}
+.content>.content-bg{
+    margin-top: 50px;
+    height: 620px;
+    background: url(../images/bg/about-culture1.jpg) no-repeat 100% 50%;
+}
+.menu>ul{
+    width: 420px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.menu li{
+    margin-top: 60px;
+}
+.menu span{
+    font-size: 24px;
+    color: #409eff;
+}
+.menu p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #727b8b;
+}
+.menu i{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    background: url(../images/icon/culture.png) no-repeat;
+    vertical-align: middle;
+}
+.menu li:nth-child(2) i{
+    background-position: -32px 0;
+}
+.menu li:nth-child(3) i{
+    background-position: -64px 0;
+}
+.cultrue{
+    height: 670px;
+    padding-top: 70px;
+    background: url(../images/bg/about-culture2.png) no-repeat 50% 70% #f0f8fb;
+}
+.cultrue p{
+    font-size: 16px;
+    color: #727b8b;
+    line-height: 2;
+    margin-top: 30px;
+}
+.cultrue ul{
+    text-align: center;
+    margin-top:40px;
+}
+.cultrue li{
+    display: inline-block;
+    width: 185px;
+    height: 185px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+    vertical-align: top;
+    background: url(../images/icon/culture-round.png) no-repeat;
+}
+.cultrue li:nth-child(1),.cultrue li:nth-child(3),.cultrue li:nth-child(5){
+    margin-top: 165px;
+}
+.cultrue li:nth-child(2){
+    background-position: -200px 0;
+}
+.cultrue li:nth-child(3){
+    background-position: -400px 0;
+}
+.cultrue li:nth-child(4){
+    background-position: -600px 0;
+}
+.cultrue li:nth-child(5){
+    background-position: -800px 0;
+}
+.cultrue li:nth-child(6){
+    background-position: -1000px 0;
+}
+.cultrue li>h4{
+    margin-top: 45px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.cultrue li>p{
+    margin-left: 28px;
+    margin-right: 28px;
+    font-size: 18px;
+    color: white;
+    line-height: 1.5em;
+    margin-top: 0
+}
